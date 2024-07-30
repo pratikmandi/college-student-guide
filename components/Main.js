@@ -1,8 +1,6 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from './tabs/Home';
-// import Profile from './components/tabs/Profile';
 import Profile from './tabs/Profile';
 import Bus from './tabs/Bus';
 import Mess from './tabs/Mess';
@@ -22,7 +20,7 @@ const Main=() =>{
           borderRadius: 20,
           marginHorizontal:20,
         },
-        tabBarShowLabel:false
+        tabBarShowLabel:false,
       }}>
         <Tab.Screen name="Home" component={Home} 
         options={{

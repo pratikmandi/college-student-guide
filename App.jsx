@@ -3,6 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Welcome from './components/Welcome';
 import Main from './components/Main';
+
+
 const Stack=createStackNavigator();
 
 const App = () => {
