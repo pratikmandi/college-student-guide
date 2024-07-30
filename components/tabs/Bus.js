@@ -153,13 +153,14 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     alignContent:'center',
     alignSelf:'center',
-    paddingHorizontal: 8
+    paddingHorizontal: 8,
+    marginTop:5
 },
   card: {
-    width: 380,
+    width: 350,
     height: 100,
     borderRadius: 10,
-    marginVertical: 12,
+    marginVertical: 9,
     alignSelf: 'center',
   },
   cardElevated: {
