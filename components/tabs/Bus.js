@@ -1,100 +1,105 @@
-import { Image, StyleSheet, Text, View, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, Platform } from 'react-native';
 import React from 'react';
 
 export default function Bus() {
   return (
-    <ScrollView style={{ marginBottom: 100 }}>
+    <View style={{
+      backgroundColor: 'white'
+    }}>
+      <ScrollView style={{
+        marginBottom: 100,
+      }}>
 
-      {/* Staff Bus Timings: */}
+        {/* Staff Bus Timings: */}
 
-      <Text style={styles.headingText}>Staff Bus Timings:</Text>
-      <View style={[styles.card, styles.cardElevated]}>
-        <View style={styles.cardBody}>
-          <View style={styles.cardHeader}>
-            <Text style={styles.cardTitle}>05:40 AM - 07:05 AM</Text>
-            <Text style={styles.cardSubtitle}>Mon-Sat</Text>
+        <Text style={styles.headingText}>Staff Bus Timings</Text>
+        <View style={[styles.card, styles.cardElevated]}>
+          <View style={styles.cardBody}>
+            <View style={styles.cardHeader}>
+              <Text style={styles.cardTitle}>05:40 AM - 07:05 AM</Text>
+              <Text style={styles.cardSubtitle}>Mon-Sat</Text>
+            </View>
+            <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
+            <Text style={styles.cardDescription}></Text>
+            <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text>
           </View>
-          <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
-          <Text style={styles.cardDescription}></Text>
-          <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text>
         </View>
-      </View>
 
-      <View style={[styles.card, styles.cardElevated]}>
-        <View style={styles.cardBody}>
-          <View style={styles.cardHeader}>
-            <Text style={styles.cardTitle}>06:30 AM - 08:00 AM</Text>
-            <Text style={styles.cardSubtitle}>Mon-Sat</Text>
+        <View style={[styles.card, styles.cardElevated]}>
+          <View style={styles.cardBody}>
+            <View style={styles.cardHeader}>
+              <Text style={styles.cardTitle}>06:30 AM - 08:00 AM</Text>
+              <Text style={styles.cardSubtitle}>Mon-Sat</Text>
+            </View>
+            <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
+            <Text style={styles.cardDescription}></Text>
+            <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text>
           </View>
-          <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
-          <Text style={styles.cardDescription}></Text>
-          <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text>
         </View>
-      </View>
 
-      <View style={[styles.card, styles.cardElevated]}>
-        <View style={styles.cardBody}>
-          <View style={styles.cardHeader}>
-            <Text style={styles.cardTitle}>07:00 AM - 08:15 AM</Text>
-            <Text style={styles.cardSubtitle}>Mon-Sat</Text>
+        <View style={[styles.card, styles.cardElevated]}>
+          <View style={styles.cardBody}>
+            <View style={styles.cardHeader}>
+              <Text style={styles.cardTitle}>07:00 AM - 08:15 AM</Text>
+              <Text style={styles.cardSubtitle}>Mon-Sat</Text>
+            </View>
+            <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
+            <Text style={styles.cardDescription}></Text>
+            {/* <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text> */}
           </View>
-          <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
-          <Text style={styles.cardDescription}></Text>
-          {/* <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text> */}
         </View>
-      </View>
 
-      <View style={[styles.card, styles.cardElevated]}>
-        <View style={styles.cardBody}>
-          <View style={styles.cardHeader}>
-            <Text style={styles.cardTitle}>09:10 AM - 01:05 PM</Text>
-            <Text style={styles.cardSubtitle}>Mon-Sun</Text>
+        <View style={[styles.card, styles.cardElevated]}>
+          <View style={styles.cardBody}>
+            <View style={styles.cardHeader}>
+              <Text style={styles.cardTitle}>09:10 AM - 01:05 PM</Text>
+              <Text style={styles.cardSubtitle}>Mon-Sun</Text>
+            </View>
+            <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
+            <Text style={styles.cardDescription}></Text>
+            {/* <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text> */}
           </View>
-          <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
-          <Text style={styles.cardDescription}></Text>
-          {/* <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text> */}
         </View>
-      </View>
 
-      <View style={[styles.card, styles.cardElevated]}>
-        <View style={styles.cardBody}>
-          <View style={styles.cardHeader}>
-            <Text style={styles.cardTitle}>05:00 PM - 07:35 PM</Text>
-            <Text style={styles.cardSubtitle}>Sat-Sun</Text>
+        <View style={[styles.card, styles.cardElevated]}>
+          <View style={styles.cardBody}>
+            <View style={styles.cardHeader}>
+              <Text style={styles.cardTitle}>05:00 PM - 07:35 PM</Text>
+              <Text style={styles.cardSubtitle}>Sat-Sun</Text>
+            </View>
+            <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
+            <Text style={styles.cardDescription}></Text>
+            {/* <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text> */}
           </View>
-          <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
-          <Text style={styles.cardDescription}></Text>
-          {/* <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text> */}
         </View>
-      </View>
 
-      <View style={[styles.card, styles.cardElevated]}>
-        <View style={styles.cardBody}>
-          <View style={styles.cardHeader}>
-            <Text style={styles.cardTitle}>05:40 PM - 07:35 PM</Text>
-            <Text style={styles.cardSubtitle}>Mon-Fri</Text>
+        <View style={[styles.card, styles.cardElevated]}>
+          <View style={styles.cardBody}>
+            <View style={styles.cardHeader}>
+              <Text style={styles.cardTitle}>05:40 PM - 07:35 PM</Text>
+              <Text style={styles.cardSubtitle}>Mon-Fri</Text>
+            </View>
+            <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
+            <Text style={styles.cardDescription}></Text>
+            {/* <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text> */}
           </View>
-          <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
-          <Text style={styles.cardDescription}></Text>
-          {/* <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text> */}
         </View>
-      </View>
 
-      <View style={[styles.card, styles.cardElevated]}>
-        <View style={styles.cardBody}>
-          <View style={styles.cardHeader}>
-            <Text style={styles.cardTitle}>05:40 PM - 07:50 PM</Text>
-            <Text style={styles.cardSubtitle}>Mon-Fri</Text>
+        <View style={[styles.card, styles.cardElevated]}>
+          <View style={styles.cardBody}>
+            <View style={styles.cardHeader}>
+              <Text style={styles.cardTitle}>05:40 PM - 07:50 PM</Text>
+              <Text style={styles.cardSubtitle}>Mon-Fri</Text>
+            </View>
+            <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
+            <Text style={styles.cardDescription}></Text>
+            {/* <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text> */}
           </View>
-          <Text style={styles.cardLabel}>BIT Mesra - Lalpur</Text>
-          <Text style={styles.cardDescription}></Text>
-          {/* <Text style={styles.cardFooter}>Via Doranda, St.Xaviers' College</Text> */}
         </View>
-      </View>
 
-      {/* Student Bus Timings: */}
+        {/* Student Bus Timings: */}
 
-      <Text style={styles.headingText}>Student Bus Timings:</Text>
+        <Text style={styles.headingText}>Student Bus Timings</Text>
         <View style={[styles.card, styles.cardElevated]}>
           <View style={styles.cardBody}>
             <View style={styles.cardHeader}>
@@ -142,20 +147,20 @@ export default function Bus() {
             {/* <Text style={styles.cardFooter}>Via RIMS, St.Xaviers' College</Text> */}
           </View>
         </View>
-    </ScrollView>
+      </ScrollView>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   headingText: {
-    color:'black',
-    fontSize: 24,
-    fontWeight: 'bold',
-    alignContent:'center',
-    alignSelf:'center',
-    paddingHorizontal: 8,
-    marginTop:5
-},
+    color: 'black',
+    fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Regular' : 'Roboto',
+    fontSize: 20,
+    alignSelf: 'center',
+    marginTop: 4,
+    // paddingLeft: 15
+  },
   card: {
     width: 350,
     height: 100,
@@ -164,7 +169,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   cardElevated: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#F7F7F7',
     elevation: 3,
     shadowOffset: {
       width: 1,
@@ -190,7 +195,7 @@ const styles = StyleSheet.create({
   cardSubtitle: {
     color: '#000000',
     fontSize: 15,
-    fontWeight:'bold',
+    fontWeight: 'bold',
     marginBottom: 4,
     marginTop: 2,
     textAlign: 'right',

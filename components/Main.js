@@ -9,64 +9,65 @@ import Icon from 'react-native-vector-icons/Ionicons'
 
 const Tab = createBottomTabNavigator();
 
-const Main=() =>{
+const Main = () => {
   return (
-      <Tab.Navigator screenOptions={{
-        tabBarStyle:{
-          backgroundColor:'white',
-          position: 'absolute',
-          height: 60,
-          bottom: 30,
-          borderRadius: 20,
-          marginHorizontal:20,
-        },
-        tabBarShowLabel:false,
-      }}>
-        <Tab.Screen name="Home" component={Home} 
+    <Tab.Navigator screenOptions={{
+      tabBarStyle: {
+        backgroundColor: 'white',
+        position: 'absolute',
+        height: 60,
+        bottom: 30,
+        borderRadius: 20,
+        marginHorizontal: 20,
+      },
+      tabBarShowLabel: false,
+    }}>
+      <Tab.Screen name="Home" component={Home}
         options={{
-          tabBarIcon:({focused})=>(
-            <Icon 
-            name="home" 
-            size={30}
-            color={focused? '#0163d2':'grey'}
+          tabBarIcon: ({ focused }) => (
+            <Icon
+              name="home"
+              size={30}
+              color={focused ? '#0163d2' : 'grey'}
             />
           )
         }}
-        />
-        <Tab.Screen name="Mess" component={Mess} 
+      />
+      <Tab.Screen name="Mess" component={Mess}
         options={{
-          tabBarIcon:({focused})=>(
-            <Icon 
-            name="fast-food-outline" 
-            size={30}
-            color={focused? '#0163d2':'grey'}
+          headerShown: false,
+          tabBarIcon: ({ focused }) => (
+            <Icon
+              name="fast-food-outline"
+              size={30}
+              color={focused ? '#0163d2' : 'grey'}
             />
           )
         }}
-        />
-        <Tab.Screen name="Bus Schedule" component={Bus}
+      />
+      <Tab.Screen name="Bus Schedule" component={Bus}
         options={{
-          tabBarIcon:({focused})=>(
-            <Icon 
-            name="bus" 
-            size={30}
-            color={focused? '#0163d2':'grey'}
+          tabBarIcon: ({ focused }) => (
+            <Icon
+              name="bus"
+              size={30}
+              color={focused ? '#0163d2' : 'grey'}
             />
           )
         }}
-        />
-        <Tab.Screen name="Profile" component={Profile}
+      />
+      <Tab.Screen name="Profile" component={Profile}
         options={{
-          tabBarIcon:({focused})=>(
-            <Icon 
-            name="person-outline" 
-            size={30}
-            color={focused? '#0163d2':'grey'}
+          tabBarIcon: ({ focused }) => (
+            <Icon
+              name="person-outline"
+              size={30}
+              color={focused ? '#0163d2' : 'grey'}
             />
           )
         }}
-        />
-      </Tab.Navigator>
+      />
+    </Tab.Navigator>
   );
 }
 

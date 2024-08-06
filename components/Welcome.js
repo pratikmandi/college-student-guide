@@ -7,7 +7,7 @@ const Welcome = ({ navigation }) => {
   return (
     <View style={{ flex: 1 }}>
       <StatusBar translucent backgroundColor="transparent" barStyle="light-content" />
-      <ImageBackground 
+      <ImageBackground
         source={require('/Users/pratikmandi/Documents/ReactNative/bitm/components/images/welcomescreen.jpg')}
         style={{ flex: 1 }}
         resizeMode="cover"
@@ -23,9 +23,9 @@ const Welcome = ({ navigation }) => {
           </Text>
 
           <View style={{
-            flex: 1, 
-            justifyContent: "center", 
-            alignItems: "center", 
+            flex: 1,
+            justifyContent: "center",
+            alignItems: "center",
           }}>
             <Text style={{
               margin: 20,

@@ -5,16 +5,16 @@ import Welcome from './components/Welcome';
 import Main from './components/Main';
 
 
-const Stack=createStackNavigator();
+const Stack = createStackNavigator();
 
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator screenOptions={{headerShown:false}} initialRouteName="Welcome">
-        <Stack.Screen 
-        name="Welcome" 
-        component={Welcome} 
-        options={{ headerShown: false }}
+      <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName="Welcome">
+        <Stack.Screen
+          name="Welcome"
+          component={Welcome}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="Main"
