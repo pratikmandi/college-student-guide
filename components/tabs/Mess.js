@@ -1,7 +1,21 @@
 import React, { useState } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import { View, StyleSheet, Text } from 'react-native';
+import { View } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
+import Hostel1Screen from '../screens/mess_screens/Hostel1Screen';
+import Hostel2Screen from '../screens/mess_screens/Hostel2Screen';
+import Hostel3Screen from '../screens/mess_screens/Hostel3Screen';
+import Hostel4Screen from '../screens/mess_screens/Hostel4Screen';
+import Hostel5Screen from '../screens/mess_screens/Hostel5Screen';
+import Hostel6Screen from '../screens/mess_screens/Hostel6Screen';
+import Hostel7Screen from '../screens/mess_screens/Hostel7Screen';
+import Hostel8Screen from '../screens/mess_screens/Hostel8Screen';
+import Hostel9Screen from '../screens/mess_screens/Hostel9Screen';
+import Hostel10Screen from '../screens/mess_screens/Hostel10Screen';
+import Hostel11Screen from '../screens/mess_screens/Hostel11Screen';
+import Hostel12Screen from '../screens/mess_screens/Hostel12Screen';
+import Hostel13Screen from '../screens/mess_screens/Hostel13Screen';
+import styles from '../../styles';
 
 
 const Stack = createStackNavigator();
@@ -34,7 +48,7 @@ const Hostel = ({ navigation }) => {
           { label: 'Hostel 10', value: 'Hostel 10 Menu' },
           { label: 'Hostel 11', value: 'Hostel 11 Menu' },
           { label: 'Hostel 12', value: 'Hostel 12 Menu' },
-          { label: 'Hostel 14', value: 'Hostel 14 Menu' },
+          { label: 'Hostel 13', value: 'Hostel 13 Menu' },
         ]}
         placeholder={{ label: 'Select Hostel', value: null }}
       />
@@ -42,83 +56,6 @@ const Hostel = ({ navigation }) => {
   );
 };
 
-const Hostel1Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 1 Screen</Text>
-  </View>
-);
-
-const Hostel2Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 2 Screen</Text>
-  </View>
-);
-
-const Hostel3Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 3 Screen</Text>
-  </View>
-);
-
-const Hostel4Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 4 Screen</Text>
-  </View>
-);
-
-const Hostel5Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 5 Screen</Text>
-  </View>
-);
-
-const Hostel6Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 6 Screen</Text>
-  </View>
-);
-
-const Hostel7Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 7 Screen</Text>
-  </View>
-);
-
-const Hostel8Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 8 Screen</Text>
-  </View>
-);
-
-const Hostel9Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 9 Screen</Text>
-  </View>
-);
-
-const Hostel10Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 10 Screen</Text>
-  </View>
-);
-
-const Hostel11Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 11 Screen</Text>
-  </View>
-);
-
-const Hostel12Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 12 Screen</Text>
-  </View>
-);
-
-const Hostel14Screen = () => (
-  <View style={[styles.screen, styles.page]}>
-    <Text>Hostel 14 Screen</Text>
-  </View>
-);
 export default function Mess() {
   return (
     <Stack.Navigator initialRouteName="Mess Menu" >
@@ -135,24 +72,7 @@ export default function Mess() {
       <Stack.Screen name="Hostel 10 Menu" component={Hostel10Screen} />
       <Stack.Screen name="Hostel 11 Menu" component={Hostel11Screen} />
       <Stack.Screen name="Hostel 12 Menu" component={Hostel12Screen} />
-      <Stack.Screen name="Hostel 14 Menu" component={Hostel14Screen} />
+      <Stack.Screen name="Hostel 13 Menu" component={Hostel13Screen} />
     </Stack.Navigator>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    padding: 16,
-  },
-  screen: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  page: {
-    backgroundColor: 'white'
-  }
-});
