@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import { View } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 import Hostel1Screen from '../screens/mess_screens/Hostel1Screen';
 import Hostel2Screen from '../screens/mess_screens/Hostel2Screen';
@@ -17,7 +17,6 @@ import Hostel12Screen from '../screens/mess_screens/Hostel12Screen';
 import Hostel13Screen from '../screens/mess_screens/Hostel13Screen';
 import styles from '../../styles';
 
-
 const Stack = createStackNavigator();
 
 const Hostel = ({ navigation }) => {
@@ -33,7 +32,6 @@ const Hostel = ({ navigation }) => {
   return (
     <View style={[styles.container, styles.page]}>
       <RNPickerSelect
-        style={{}}
         onValueChange={handleValueChange}
         items={[
           { label: 'Hostel 1', value: 'Hostel 1 Menu' },
@@ -51,14 +49,48 @@ const Hostel = ({ navigation }) => {
           { label: 'Hostel 13', value: 'Hostel 13 Menu' },
         ]}
         placeholder={{ label: 'Select Hostel', value: null }}
+        style={pickerSelectStyles}
       />
     </View>
   );
 };
 
+const pickerSelectStyles = StyleSheet.create({
+  inputIOS: {
+    fontSize: 16,
+    paddingVertical: 12,
+    paddingHorizontal: 10,
+    borderWidth: 1,
+    borderColor: 'gray',
+    borderRadius: 8,
+    color: 'black',
+    paddingRight: 30,
+  },
+  inputAndroid: {
+    fontSize: 16,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    borderWidth: 1,
+    borderColor: 'gray',
+    borderRadius: 8,
+    color: 'black',
+    paddingRight: 30,
+  },
+  placeholder: {
+    color: 'gray',
+    fontSize: 16,
+  },
+  viewContainer: {
+    // marginHorizontal:
+    borderWidth: 1,
+    borderColor: 'black',
+    borderRadius: 20,
+  },
+});
+
 export default function Mess() {
   return (
-    <Stack.Navigator initialRouteName="Mess Menu" >
+    <Stack.Navigator initialRouteName="Mess Menu">
       <Stack.Screen name="Mess Menu" component={Hostel} options={{ headerLeft: null }} />
       <Stack.Screen name="Hostel 1 Menu" component={Hostel1Screen} />
       <Stack.Screen name="Hostel 2 Menu" component={Hostel2Screen} />
