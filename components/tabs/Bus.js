@@ -13,6 +13,7 @@ export default function Bus() {
         {/* Staff Bus Timings: */}
 
         <Text style={styles.headingText}>Staff Bus Timings</Text>
+        <View style={styles.underline}></View>
         <View style={[styles.card, styles.cardElevated]}>
           <View style={styles.cardBody}>
             <View style={styles.cardHeader}>
@@ -100,6 +101,7 @@ export default function Bus() {
         {/* Student Bus Timings: */}
 
         <Text style={styles.headingText}>Student Bus Timings</Text>
+        <View style={styles.underline}></View>
         <View style={[styles.card, styles.cardElevated]}>
           <View style={styles.cardBody}>
             <View style={styles.cardHeader}>
@@ -169,7 +171,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   cardElevated: {
-    backgroundColor: '#F7F7F7',
+    backgroundColor: '#f9f9fb',
     elevation: 3,
     shadowOffset: {
       width: 1,
@@ -215,4 +217,12 @@ const styles = StyleSheet.create({
     color: '#000000',
     marginBottom: 5,
   },
+  underline:{
+    borderBottomWidth:2,
+    borderBottomColor:'maroon',
+    marginVertical:5,
+    width:50,
+    justifyContent:'center',
+    alignSelf:'center'
+  }
 });

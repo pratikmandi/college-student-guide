@@ -50,6 +50,7 @@ const h2menu = {
   const DayMenu = ({ day, menu }) => (
     <View style={styles.dayContainer}>
       <Text style={styles.dayTitle}>{day}</Text>
+      <View style={styles.underlinemess}></View>
       {Object.entries(menu).map(([meal, items]) => (
         <View key={meal} style={styles.mealContainer}>
           <Text style={styles.mealTitle}>{meal}</Text>

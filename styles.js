@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     marginHorizontal:20,
     marginVertical:10,
     padding: 10,
-    backgroundColor: '#F7F7F7',
+    backgroundColor: '#f9f9fb',
     borderRadius: 10,
     elevation: 2,
 
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   dayTitle: {
     fontSize: 25,
     fontWeight: 'bold',
-    marginBottom: 10,
+    marginBottom: 5,
     color: '#333',
   },
   mealContainer: {
@@ -42,6 +42,12 @@ const styles = StyleSheet.create({
     color: '#242B2E',
     fontSize: 16,
   },
+  underlinemess:{
+    borderBottomWidth:2,
+    borderBottomColor:'maroon',
+    width:50,
+    justifyContent:'flex-start',
+  }
 });
 
 export default styles
