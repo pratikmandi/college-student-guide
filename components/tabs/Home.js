@@ -1,27 +1,28 @@
-import { Text, View, StyleSheet, Platform } from 'react-native'
+import React from 'react';
+import { Text, View, StyleSheet, Platform } from 'react-native';
 
 const Home = () => {
   return (
-    <View style={{
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: 'white',
-    }}>
+    <View style={styles.container}>
       <Text>Home!</Text>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'white',
+  },
   headingText: {
     color: 'black',
     fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Regular' : 'Roboto',
     fontSize: 24,
     fontWeight: 'medium',
-    // alignContent:'center',
     marginTop: 4,
-    paddingLeft: 15
+    paddingLeft: 15,
   },
   card: {
     width: 350,
@@ -79,4 +80,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home
+export default Home;

@@ -28,7 +28,7 @@ const Main = () => {
             <Icon
               name="home"
               size={30}
-              color={focused ? 'maroon' : 'grey'}
+              color={focused ? '#9e2433' : 'grey'}
             />
           )
         }}
@@ -40,7 +40,7 @@ const Main = () => {
             <Icon
               name="fast-food-outline"
               size={30}
-              color={focused ? 'maroon' : 'grey'}
+              color={focused ? '#9e2433' : 'grey'}
             />
           )
         }}
@@ -51,7 +51,7 @@ const Main = () => {
             <Icon
               name="bus"
               size={30}
-              color={focused ? 'maroon' : 'grey'}
+              color={focused ? '#9e2433' : 'grey'}
             />
           )
         }}
@@ -62,7 +62,7 @@ const Main = () => {
             <Icon
               name="person-outline"
               size={30}
-              color={focused ? 'maroon' : 'grey'}
+              color={focused ? '#9e2433' : 'grey'}
             />
           )
         }}
