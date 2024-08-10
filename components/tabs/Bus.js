@@ -219,7 +219,7 @@ const styles = StyleSheet.create({
   },
   underline:{
     borderBottomWidth:2,
-    borderBottomColor:'maroon',
+    borderBottomColor:'#e73e36',
     marginVertical:5,
     width:50,
     justifyContent:'center',

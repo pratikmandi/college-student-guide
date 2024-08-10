@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   },
   underlinemess:{
     borderBottomWidth:2,
-    borderBottomColor:'#9e2433',
+    borderBottomColor:'#e73e36',
     width:50,
     justifyContent:'flex-start',
   }
