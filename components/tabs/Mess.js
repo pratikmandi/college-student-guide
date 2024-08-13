@@ -83,8 +83,8 @@ const pickerSelectStyles = StyleSheet.create({
   viewContainer: {
     // marginHorizontal:
     borderWidth: 1,
-    borderColor: 'black',
-    borderRadius: 20,
+    borderColor: 'gray',
+    borderRadius: 100,
   },
 });
 

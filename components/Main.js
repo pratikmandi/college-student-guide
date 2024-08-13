@@ -17,7 +17,7 @@ const Main = () => {
         position: 'absolute',
         height: 60,
         bottom: 30,
-        borderRadius: 20,
+        borderRadius: 100,
         marginHorizontal: 20,
       },
       tabBarShowLabel: false,

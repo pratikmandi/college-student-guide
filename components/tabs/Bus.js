@@ -13,7 +13,7 @@ export default function Bus() {
         {/* Staff Bus Timings: */}
 
         <Text style={styles.headingText}>Staff Bus Timings</Text>
-        <View style={styles.underline}></View>
+        {/* <View style={styles.underline}></View> */}
         <View style={[styles.card, styles.cardElevated]}>
           <View style={styles.cardBody}>
             <View style={styles.cardHeader}>
@@ -101,7 +101,7 @@ export default function Bus() {
         {/* Student Bus Timings: */}
 
         <Text style={styles.headingText}>Student Bus Timings</Text>
-        <View style={styles.underline}></View>
+        {/* <View style={styles.underline}></View> */}
         <View style={[styles.card, styles.cardElevated]}>
           <View style={styles.cardBody}>
             <View style={styles.cardHeader}>
@@ -157,11 +157,11 @@ export default function Bus() {
 const styles = StyleSheet.create({
   headingText: {
     color: 'black',
-    fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Regular' : 'Roboto',
+    // fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Regular' : 'Roboto',
     fontSize: 20,
-    alignSelf: 'center',
+    // alignSelf: 'flex-start',
     marginTop: 4,
-    // paddingLeft: 15
+    paddingLeft: 15
   },
   card: {
     width: 350,
@@ -221,8 +221,8 @@ const styles = StyleSheet.create({
     borderBottomWidth:2,
     borderBottomColor:'#e73e36',
     marginVertical:5,
-    width:50,
-    justifyContent:'center',
-    alignSelf:'center'
+    justifyContent:'flex-start',
+    marginLeft:15,
+    width:50
   }
 });
