@@ -13,13 +13,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   page: {
-    backgroundColor: 'white'
+    backgroundColor:'#101318',
   },
   dayContainer: {
     marginHorizontal:20,
-    marginVertical:10,
+    marginVertical:5,
     padding: 10,
-    backgroundColor: '#f9f9fb',
+    backgroundColor: '#2C2F34',
     borderRadius: 10,
     elevation: 2,
 
@@ -27,8 +27,8 @@ const styles = StyleSheet.create({
   dayTitle: {
     fontSize: 25,
     fontWeight: 'bold',
-    marginBottom: 5,
-    color: '#333',
+    marginBottom: 2,
+    color: '#e73e36',
   },
   mealContainer: {
     marginVertical: 5,
@@ -36,10 +36,10 @@ const styles = StyleSheet.create({
   mealTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: 'black',
+    color: 'rgba(255, 255, 255, 0.87)',
   },
   mealItems: {
-    color: '#242B2E',
+    color: '#e0e0e0',
     fontSize: 16,
   },
   underlinemess:{

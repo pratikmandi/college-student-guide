@@ -4,7 +4,7 @@ import React from 'react';
 export default function Bus() {
   return (
     <View style={{
-      backgroundColor: 'white'
+      backgroundColor: '#101318'
     }}>
       <ScrollView style={{
         marginBottom: 100,
@@ -156,22 +156,24 @@ export default function Bus() {
 
 const styles = StyleSheet.create({
   headingText: {
-    color: 'black',
+    color: '#e73e36',
     // fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Regular' : 'Roboto',
     fontSize: 20,
     // alignSelf: 'flex-start',
     marginTop: 4,
-    paddingLeft: 15
+    fontWeight:'bold',
+    paddingLeft: 17,
+    marginVertical:2
   },
   card: {
     width: 350,
     height: 100,
     borderRadius: 10,
-    marginVertical: 9,
+    marginVertical: 5,
     alignSelf: 'center',
   },
   cardElevated: {
-    backgroundColor: '#f9f9fb',
+    backgroundColor: '#2C2F34',
     elevation: 3,
     shadowOffset: {
       width: 1,
@@ -188,14 +190,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   cardTitle: {
-    color: '#000000',
+    color: 'white',
     fontSize: 15,
     fontWeight: 'bold',
     marginBottom: 4,
     marginTop: 2,
   },
   cardSubtitle: {
-    color: '#000000',
+    color: 'white',
     fontSize: 15,
     fontWeight: 'bold',
     marginBottom: 4,
@@ -203,18 +205,18 @@ const styles = StyleSheet.create({
     textAlign: 'right',
   },
   cardLabel: {
-    color: '#000000',
+    color: 'white',
     fontSize: 14,
     marginBottom: 6,
   },
   cardDescription: {
-    color: '#242B2E',
+    color: 'white',
     fontSize: 12,
     marginBottom: 5,
     marginTop: 2,
   },
   cardFooter: {
-    color: '#000000',
+    color: '#E0E0E0',
     marginBottom: 5,
   },
   underline:{

@@ -50,7 +50,7 @@ const h10menu = {
   const DayMenu = ({ day, menu }) => (
     <View style={styles.dayContainer}>
       <Text style={styles.dayTitle}>{day}</Text>
-      <View style={styles.underlinemess}></View>
+      {/* <View style={styles.underlinemess}></View> */}
       {Object.entries(menu).map(([meal, items]) => (
         <View key={meal} style={styles.mealContainer}>
           <Text style={styles.mealTitle}>{meal}</Text>
@@ -62,7 +62,7 @@ const h10menu = {
 
 const Hostel10Screen = () => {
     return (
-        <View style={{backgroundColor:'white'}}>
+        <View style={{backgroundColor:'#101318'}}>
       <ScrollView style={{marginBottom:100}}>
         {Object.entries(h10menu).map(([day, menu]) => (
           <DayMenu key={day} day={day} menu={menu} />

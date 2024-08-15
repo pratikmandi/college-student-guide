@@ -63,7 +63,7 @@ const pickerSelectStyles = StyleSheet.create({
     borderWidth: 1,
     borderColor: 'gray',
     borderRadius: 8,
-    color: 'black',
+    color: 'white',
     paddingRight: 30,
   },
   inputAndroid: {
@@ -73,11 +73,11 @@ const pickerSelectStyles = StyleSheet.create({
     borderWidth: 1,
     borderColor: 'gray',
     borderRadius: 8,
-    color: 'black',
+    color: 'white',
     paddingRight: 30,
   },
   placeholder: {
-    color: 'gray',
+    color: 'white',
     fontSize: 16,
   },
   viewContainer: {
@@ -91,20 +91,92 @@ const pickerSelectStyles = StyleSheet.create({
 export default function Mess() {
   return (
     <Stack.Navigator initialRouteName="Mess Menu">
-      <Stack.Screen name="Mess Menu" component={Hostel} options={{ headerLeft: null }} />
-      <Stack.Screen name="Hostel 1 Menu" component={Hostel1Screen} />
-      <Stack.Screen name="Hostel 2 Menu" component={Hostel2Screen} />
-      <Stack.Screen name="Hostel 3 Menu" component={Hostel3Screen} />
-      <Stack.Screen name="Hostel 4 Menu" component={Hostel4Screen} />
-      <Stack.Screen name="Hostel 5 Menu" component={Hostel5Screen} />
-      <Stack.Screen name="Hostel 6 Menu" component={Hostel6Screen} />
-      <Stack.Screen name="Hostel 7 Menu" component={Hostel7Screen} />
-      <Stack.Screen name="Hostel 8 Menu" component={Hostel8Screen} />
-      <Stack.Screen name="Hostel 9 Menu" component={Hostel9Screen} />
-      <Stack.Screen name="Hostel 10 Menu" component={Hostel10Screen} />
-      <Stack.Screen name="Hostel 11 Menu" component={Hostel11Screen} />
-      <Stack.Screen name="Hostel 12 Menu" component={Hostel12Screen} />
-      <Stack.Screen name="Hostel 13 Menu" component={Hostel13Screen} />
+      <Stack.Screen name="Mess Menu" component={Hostel} options={{ 
+      headerShadowVisible:false,
+      headerTintColor:'white',
+        headerLeft: null, 
+        headerStyle:{
+        backgroundColor:'#101318'
+        }}} />
+      <Stack.Screen name="Hostel 1 Menu" component={Hostel1Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 2 Menu" component={Hostel2Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 3 Menu" component={Hostel3Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 4 Menu" component={Hostel4Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 5 Menu" component={Hostel5Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 6 Menu" component={Hostel6Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 7 Menu" component={Hostel7Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 8 Menu" component={Hostel8Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 9 Menu" component={Hostel9Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 10 Menu" component={Hostel10Screen} 
+      options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 11 Menu" component={Hostel11Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 12 Menu" component={Hostel12Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
+      <Stack.Screen name="Hostel 13 Menu" component={Hostel13Screen} options={{ 
+        headerShadowVisible:false,
+        headerTintColor:'white',
+          headerStyle:{
+          backgroundColor:'#101318'
+          }}} />
     </Stack.Navigator>
   );
 }

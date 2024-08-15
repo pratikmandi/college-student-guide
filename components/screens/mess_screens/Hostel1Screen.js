@@ -50,7 +50,7 @@ const h1menu = {
   const DayMenu = ({ day, menu }) => (
     <View style={styles.dayContainer}>
       <Text style={styles.dayTitle}>{day}</Text>
-      <View style={styles.underlinemess}></View>
+      {/* <View style={styles.underlinemess}></View> */}
       {Object.entries(menu).map(([meal, items]) => (
         <View key={meal} style={styles.mealContainer}>
           <Text style={styles.mealTitle}>{meal}</Text>
@@ -59,10 +59,10 @@ const h1menu = {
       ))}
     </View>
   );
-
-const Hostel1Screen = () => {
+  
+  const Hostel1Screen = () => {
     return (
-        <View style={{backgroundColor:'white'}}>
+        <View style={{backgroundColor:'#101318'}}>
       <ScrollView style={{marginBottom:100}}>
         {Object.entries(h1menu).map(([day, menu]) => (
           <DayMenu key={day} day={day} menu={menu} />
@@ -71,5 +71,5 @@ const Hostel1Screen = () => {
       </View>
     );
   };
-
-export default Hostel1Screen
+  
+  export default Hostel1Screen
