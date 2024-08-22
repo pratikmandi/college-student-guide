@@ -1,18 +1,18 @@
 import * as React from 'react';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from './tabs/Home';
 import Profile from './tabs/Profile';
 import Bus from './tabs/Bus';
 import Mess from './tabs/Mess';
 import Icon from 'react-native-vector-icons/Ionicons'
-import { color } from '@rneui/base';
-
-
 const Tab = createBottomTabNavigator();
 
 const Main = () => {
   return (
-    <Tab.Navigator screenOptions={{
+    <Tab.Navigator
+    screenOptions={{
+      tabBarLabel:false,
+      tabBarColor:'#1C1F24',
       tabBarStyle: {
         borderTopColor:'transparent',
         backgroundColor: '#1C1F24',
@@ -24,10 +24,13 @@ const Main = () => {
       },
       tabBarShowLabel: false,
       headerTitleStyle:{color:'white'},
-      headerShadowVisible:false
-    }}>
+      headerShadowVisible:false,
+    }}
+    >
+
       <Tab.Screen name="Home" component={Home}
         options={{
+          headerShown:false,
           headerStyle:{
             backgroundColor:'#101318'
           },

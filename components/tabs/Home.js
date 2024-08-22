@@ -1,83 +1,129 @@
 import React from 'react';
-import { Text, View, StyleSheet, Platform } from 'react-native';
+import { View,Text, StyleSheet, Linking } from 'react-native';
+import { createDrawerNavigator, DrawerContentScrollView, DrawerItem, DrawerItemList} from '@react-navigation/drawer';
+import { NavigationContainer } from '@react-navigation/native';
+import HomeScreen from '../screens/HomeScreen';
+const Drawer = createDrawerNavigator();
+
+const CustomDrawerContent = (props) => {
+  return (
+    <DrawerContentScrollView {...props}>
+      <View style={styles.appInfoContainer}>
+        <Text style={styles.appTitle}>BIT Mesra</Text>
+        <View style={styles.underline}></View>
+        <Text style={styles.appVersion}>Version 1.0.0</Text>
+      </View>
+      <DrawerItemList {...props} />
+      <DrawerItem 
+      label="Institute Website"
+      labelStyle={{color:'white'}}
+      onPress={()=>Linking.openURL('https://bitmesra.ac.in/1')}
+      // activeBackgroundColor='#101318'
+      // activeTintColor='#101318'
+      />
+      <DrawerItem 
+      label="ERP"
+      labelStyle={{
+        color:'white'}}
+      onPress={()=>Linking.openURL('https://erpportal.bitmesra.ac.in/login.htm')}
+      // activeBackgroundColor='#101318'
+      // activeTintColor='#101318'
+      />
+
+<DrawerItem 
+      label="Placement Portal"
+      labelStyle={{
+        color:'white'}}
+      onPress={()=>Linking.openURL('https://tp.bitmesra.co.in/login.html')}
+      // activeBackgroundColor='#101318'
+      // activeTintColor='#101318'
+      />
+      <View style={styles.appDevContainer}>
+        <Text style={styles.appDev}>by Pratik Mandi</Text>
+      </View>
+    </DrawerContentScrollView>
+  );
+};
+
+
+const HomeDrawer = () =>{
+return(
+  <Drawer.Navigator initialRouteName="Home" 
+  drawerContent={(props) => <CustomDrawerContent {...props} />}>
+      <Drawer.Screen
+      name="Home"
+      component={HomeScreen}
+      options={{ 
+        headerShadowVisible:false,
+        headerStyle:{
+          backgroundColor:'#101318',
+        },
+        headerTitleStyle:{color:'white'},
+        headerTitleContainerStyle:{marginStart:1},
+        headerShown: true,
+        headerTintColor:'white',
+      drawerStyle:{
+        backgroundColor:'#101318',
+        marginTop:40,
+        marginBottom:90,
+        borderRadius:20,
+      },
+      drawerActiveTintColor:'#e73e36',
+      drawerType:'front',
+       }} 
+    />
+    </Drawer.Navigator>
+)
+}
 
 const Home = () => {
   return (
-    <View style={styles.container}>
-      <Text style={{color:'white'}}>Home!</Text>
-    </View>
+    <NavigationContainer independent={true}>
+      <HomeDrawer/>
+    </NavigationContainer>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+  appInfoContainer: {
+    paddingLeft: 20,
     backgroundColor: '#101318',
-  },
-  headingText: {
-    color: 'black',
-    fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Regular' : 'Roboto',
-    fontSize: 24,
-    fontWeight: 'medium',
-    marginTop: 4,
-    paddingLeft: 15,
-  },
-  card: {
-    width: 350,
-    height: 100,
+    marginBottom: 20,
     borderRadius: 10,
-    marginVertical: 9,
-    alignSelf: 'center',
   },
-  cardElevated: {
-    backgroundColor: '#F7F7F7',
-    elevation: 3,
-    shadowOffset: {
-      width: 1,
-      height: 1,
-    },
-  },
-  cardBody: {
-    flex: 1,
-    paddingHorizontal: 12,
-  },
-  cardHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  cardTitle: {
-    color: '#000000',
-    fontSize: 15,
+  appTitle: {
+    color: 'white',
+    fontSize: 18,
     fontWeight: 'bold',
-    marginBottom: 4,
-    marginTop: 2,
   },
-  cardSubtitle: {
-    color: '#000000',
-    fontSize: 15,
-    fontWeight: 'bold',
-    marginBottom: 4,
-    marginTop: 2,
-    textAlign: 'right',
-  },
-  cardLabel: {
-    color: '#000000',
+  appVersion: {
+    color: 'gray',
     fontSize: 14,
-    marginBottom: 6,
+    marginTop: 5,
   },
-  cardDescription: {
-    color: '#242B2E',
-    fontSize: 12,
-    marginBottom: 5,
-    marginTop: 2,
+  appDevContainer: {
+    paddingLeft: 20,
+    backgroundColor: '#101318',
+    marginTop:350,
+    marginBottom: 10,
+    borderRadius: 10,
   },
-  cardFooter: {
-    color: '#000000',
-    marginBottom: 5,
+  appDev: {
+    color: 'gray',
+    fontSize: 15,
+    fontWeight: 'medium',
+    marginTop:30,
+    marginBottom:5
   },
+  underline:{
+    borderBottomWidth:2,
+    borderBottomColor:'#e73e36',
+    marginVertical:5,
+    justifyContent:'center',
+    // marginLeft:1.2,
+    width:80,
+  }
 });
+
 
 export default Home;

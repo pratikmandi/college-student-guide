@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
+import { CardStyleInterpolators, createStackNavigator } from '@react-navigation/stack';
 import { View, StyleSheet } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 import Hostel1Screen from '../screens/mess_screens/Hostel1Screen';
@@ -32,6 +32,7 @@ const Hostel = ({ navigation }) => {
   return (
     <View style={[styles.container, styles.page]}>
       <RNPickerSelect
+      // useNativeAndroidPickerStyle={false}
         onValueChange={handleValueChange}
         items={[
           { label: 'Hostel 1', value: 'Hostel 1 Menu' },
@@ -90,7 +91,25 @@ const pickerSelectStyles = StyleSheet.create({
 
 export default function Mess() {
   return (
-    <Stack.Navigator initialRouteName="Mess Menu">
+    <Stack.Navigator initialRouteName="Mess Menu" 
+    screenOptions={{
+      gestureEnabled:true,
+      cardStyleInterpolator:CardStyleInterpolators.forHorizontalIOS,
+        transitionSpec: {
+          open: {
+            animation:'timing',
+            config:{
+              duration:300,
+            }
+          },
+          close: {
+            animation:'timing',
+            config:{
+              duration:300,
+            }
+          }
+        }
+    }}>
       <Stack.Screen name="Mess Menu" component={Hostel} options={{ 
       headerShadowVisible:false,
       headerTintColor:'white',
@@ -152,7 +171,7 @@ export default function Mess() {
           headerStyle:{
           backgroundColor:'#101318'
           }}} />
-      <Stack.Screen name="Hostel 10 Menu" component={Hostel10Screen} 
+      <Stack.Screen name="Hostel 10 Menu" component={Hostel10Screen}
       options={{ 
         headerShadowVisible:false,
         headerTintColor:'white',

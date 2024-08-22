@@ -161,9 +161,9 @@ const styles = StyleSheet.create({
     fontSize: 20,
     // alignSelf: 'flex-start',
     marginTop: 4,
-    fontWeight:'bold',
+    fontWeight:'900',
     paddingLeft: 17,
-    marginVertical:2
+    marginVertical:3
   },
   card: {
     width: 350,

@@ -4,46 +4,46 @@ import styles from '../../../styles';
 
 const h4menu = {
   Monday: {
-    Breakfast:'',
-    Lunch:'',
-    Snacks:'',
-    Dinner:''
+    Breakfast:'Idli, Sambar, White Chutney, Chai, Banana(1Pc.)',
+    Lunch:'Egg Curry/Paneer Kofta, Rice, Roti, Dal, Salad, Dahi',
+    Snacks:'Patties and Pastry, Coffee, Tomato Sauce',
+    Dinner:'Jira Rice, Rajma, Roti'
   },
   Tuesday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Poha, Jalebi, Chai',
+    Lunch: 'Kachori, Chola, Rice, Sweet, Bundi Raita',
+    Snacks: 'Aloo Chap, Green Chutney, Chai',
+    Dinner: 'Aloo Patta Gobhi, Dal, Rice, Roti'
   },
   Wednesday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Bread(Butter,Jam), Milk, Omlette, Banana(2Pc.)',
+    Lunch: 'Kadhi-Badi, Rice, Roti, Aloo Bhujia, Salad, Papad, Icecream',
+    Snacks: 'White Pasta, Pepsi, Tomato Sauce',
+    Dinner: 'Chicken/Mutton Curry/Paneer Curry, Rice, Butter Roti, Dal, Salad'
   },
   Thursday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Uttapam-Sambar, White Chutney, Coffee',
+    Lunch: 'Dal Makhni, Rice, Aloo Paratha, Salad, Dahi',
+    Snacks: 'Back Forest Mousse, Cheese Italian Roll, Coffee, Tomato Sauce',
+    Dinner: 'Puri, Matar Paneer, Kheer, Salad'
   },
   Friday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Bread(Butter,Jam), Milk, Cornflakes, Banana(1Pc.)',
+    Lunch: 'Pulao, Mix Veg, Roti, Salad, Dal, Dahi',
+    Snacks: 'Samosa Chaat, Chai',
+    Dinner: 'Chicken Chilli/Paneer, Rice, Butter Roti, Dal, Salad'
   },
   Saturday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Dosa, Sambar Chutney, Chai',
+    Lunch: 'Khichdi, Dahi, Papad, Aloo Chokha, Achaar',
+    Snacks: 'Veg Cheese Sandwich, Banana Shake',
+    Dinner: 'Tadka Chana Dal, Roti, Rice, Aloo Bhujia, Salad'
   },
   Sunday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Chole Bhature, Salad, Jalebi, Chai',
+    Lunch: 'Roti, Rice, Dal, Jeera Aloo, Salad, Custard',
+    Snacks: 'Dabeli, Chai',
+    Dinner: 'Chicken/Paneer Biryani, Raita'
   }
 };
 

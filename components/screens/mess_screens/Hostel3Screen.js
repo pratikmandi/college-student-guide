@@ -4,46 +4,46 @@ import styles from '../../../styles';
 
 const h3menu = {
   Monday: {
-    Breakfast:'',
-    Lunch:'',
-    Snacks:'',
-    Dinner:''
+    Breakfast:'Bread+Butter/Jam, Omelette/Milk, Tea',
+    Lunch:'Kadhi, Rice, Roti, Aloo Bhujiya, Pickle',
+    Snacks:'Egg Roll/Veg Roll, Ketchup, Tea',
+    Dinner:'Rice, Dal, Butter Roti, Seasonal Veg, Sweet(1)'
   },
   Tuesday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Uttapam+Sambar, Chutney, Fruits, Coffee',
+    Lunch: 'Pulao, Salad, Soya Chilli, Dal Tadka',
+    Snacks: 'Hot Dog, Tea, Ketchup',
+    Dinner: 'Kachori, Chole, Kheer'
   },
   Wednesday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Bread+Butter/Jam, Omelette/Milk, Tea',
+    Lunch: 'Rice, Roti, Rajma, Aloo Bhujiya',
+    Snacks: 'Burger, Sauce, Tea',
+    Dinner: 'Chicken Biryani/Veg Biryani, Raita'
   },
   Thursday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Poha, Jalebi, Coffee, Ketchup',
+    Lunch: 'Rice, Roti, Dal, Besan Gatta, Salad',
+    Snacks: 'Chowmin, Tea, Sauce, Juice',
+    Dinner: 'Rice, Roti, Dal, Mix Veg, Ice Cream'
   },
   Friday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Idli-Sambar, Chutney, Coffee',
+    Lunch: 'Rice, Roti, Dal, Soya Bean, Achaar',
+    Snacks: 'Patties, Pastry, Tea',
+    Dinner: 'Egg Curry/Paneer Masala, Rice, Roti'
   },
   Saturday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Aloo Paratha, Dahi, Ketchup, Tea',
+    Lunch: 'Khichdi, Dahi, Papad, Aloo Chokha, Pickle',
+    Snacks: 'Litti-Chokha, Tea',
+    Dinner: 'Rice, DaL, Roti, Seasonal Veg, Sweet'
   },
   Sunday: {
-    Breakfast: '',
-    Lunch: '',
-    Snacks: '',
-    Dinner: ''
+    Breakfast: 'Chole Bhature, Onion, Coffee',
+    Lunch: 'Rice, Roti, Dal, Seasonal Veg, Achaar, Salad',
+    Snacks: 'Aloo Pyaaz Pakori, Ketchup, Juice, Tea/Pav Bhaji',
+    Dinner: 'Rice, Roti, Chilli Paneer/Chicken/Mutton'
   }
 };
 

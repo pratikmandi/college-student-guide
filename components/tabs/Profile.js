@@ -16,7 +16,7 @@ const Profile = () => {
 const styles = StyleSheet.create({
   headingText: {
     color: 'black',
-    fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Regular' : 'Roboto',
+    // fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Regular' : 'Roboto',
     fontSize: 24,
     fontWeight: 'medium',
     // alignContent:'center',
