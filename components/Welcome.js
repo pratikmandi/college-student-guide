@@ -8,7 +8,7 @@ const Welcome = ({ navigation }) => {
     <View style={{ flex: 1 }}>
       <StatusBar translucent backgroundColor="transparent" barStyle="light-content" />
       <ImageBackground
-        source={require('/Users/pratikmandi/Documents/ReactNative/bitm/components/images/welcomescreen.jpg')}
+        source={require('./images/welcomescreen.jpg')}
         style={{ flex: 1 }}
         resizeMode="cover"
       >
