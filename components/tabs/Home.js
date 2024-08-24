@@ -66,7 +66,9 @@ return(
         backgroundColor:'#101318',
         marginTop:40,
         marginBottom:90,
-        borderRadius:20,
+        // borderRadius:20,
+        borderBottomRightRadius:20,
+        borderTopRightRadius:20
       },
       drawerActiveTintColor:'#e73e36',
       drawerType:'front',
