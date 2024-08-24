@@ -1,0 +1,615 @@
+{
+  "hostels": {
+    "Hostel 1 Menu": {
+      "name": "Hostel 1",
+      "menu": {
+        "Monday": {
+          "Breakfast": ["Bread, Tea, Milk, Fruit, Butter, Jam, Paneer Bhujiya"],
+          "Lunch": ["Rice, Rajma, French Fries, Dahi, Achaar, Salad"],
+          "Snacks": ["Maggi, Sauce, Coffee"],
+          "Dinner": ["Fried Rice, Roti, Tadka Dal, Mix Veg Sabji, Sweet"]
+        },
+        "Tuesday": {
+          "Breakfast": ["Puri, Aloo Chana Sabji, Tea"],
+          "Lunch": ["Rice, Roti, Dal, Soyabean Chilli, Dahi, Achaar, Salad"],
+          "Snacks": ["Samosa, Chola Chaat, Tea"],
+          "Dinner": ["Rice, Dal, Sattu/Pyaaz Paratha, Achaar, Sweet, Salad"]
+        },
+        "Wednesday": {
+          "Breakfast": ["Bread, Tea, Fruit, Butter, Jam, Paneer Bhujiya"],
+          "Lunch": ["Rice, Roti, Dal, Aloo Mattar Sabji, Dahi, Achaar, Salad"],
+          "Snacks": ["Veg Patties, Pastry, Sauce, Tea"],
+          "Dinner": ["Rice, Roti, Dal, Paneer Butter Masala, Achaar, Salad"]
+        },
+        "Thursday": {
+          "Breakfast": ["Poha, Jalebi, Sew Bhujiya, Sauce, Tea"],
+          "Lunch": ["Rice, Roti, Besan Kadhi, Aloo Bhujiya, Achaar, Salad"],
+          "Snacks": ["Chowmin, Sauce, Coffee"],
+          "Dinner": ["Rice, Dal, Chhola, Kachodi, Achaar, Salad, Ice Cream"]
+        },
+        "Friday": {
+          "Breakfast": ["Bread, Tea, Fruit, Butter, Jam, Paneer Bhujiya"],
+          "Lunch": ["Rice, Roti, Dal, Seasonal Veg, Dahi, Achaar, Salad"],
+          "Snacks": ["Dhuska, Aloo Chana Sabji, Tea"],
+          "Dinner": ["Rice, Roti, Dal, Paneer, Achaar, Salad"]
+        },
+        "Saturday": {
+          "Breakfast": ["Dosa-Sambar, Chutney, Tea"],
+          "Lunch": ["Khichdi, Chokaha, Dahi, Papad, Achaar"],
+          "Snacks": ["Bread Sandwich, Sauce, Tea"],
+          "Dinner": ["Rice, Roti, Dal, Seasonal Veg, Achaar, Salad, Sweet"]
+        },
+        "Sunday": {
+          "Breakfast": ["Chole Bhature"],
+          "Lunch": ["Rice, Roti, Dal, Seasonal Veg, Dahi, Achaar, Salad"],
+          "Snacks": ["Aloo Chop, Banana Shake"],
+          "Dinner": ["Rice, Roti, Dal, Paneer, Achaar, Salad"]
+        }
+      }
+    },
+    "Hostel 2 Menu": {
+      "name": "Hostel 2",
+      "menu": {
+        "Monday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Tuesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Wednesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Thursday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Friday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Saturday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Sunday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        }
+      }
+    },
+    "Hostel 3 Menu": {
+      "name": "Hostel 3",
+      "menu": {
+        "Monday": {
+          "Breakfast": ["Bread+Butter/Jam, Omelette/Milk, Tea"],
+          "Lunch": ["Kadhi, Rice, Roti, Aloo Bhujiya, Pickle"],
+          "Snacks": ["Egg Roll/Veg Roll, Ketchup, Tea"],
+          "Dinner": ["Rice, Dal, Butter Roti, Seasonal Veg, Sweet(1)"]
+        },
+        "Tuesday": {
+          "Breakfast": ["Uttapam+Sambar, Chutney, Fruits, Coffee"],
+          "Lunch": ["Pulao, Salad, Soya Chilli, Dal Tadka"],
+          "Snacks": ["Hot Dog, Tea, Ketchup"],
+          "Dinner": ["Kachori, Chole, Kheer"]
+        },
+        "Wednesday": {
+          "Breakfast": ["Bread+Butter/Jam, Omelette/Milk, Tea"],
+          "Lunch": ["Rice, Roti, Rajma, Aloo Bhujiya"],
+          "Snacks": ["Burger, Sauce, Tea"],
+          "Dinner": ["Chicken Biryani/Veg Biryani, Raita"]
+        },
+        "Thursday": {
+          "Breakfast": ["Poha, Jalebi, Coffee, Ketchup"],
+          "Lunch": ["Rice, Roti, Dal, Besan Gatta, Salad"],
+          "Snacks": ["Chowmin, Tea, Sauce, Juice"],
+          "Dinner": ["Rice, Roti, Dal, Mix Veg, Ice Cream"]
+        },
+        "Friday": {
+          "Breakfast": ["Idli-Sambar, Chutney, Coffee"],
+          "Lunch": ["Rice, Roti, Dal, Soya Bean, Achaar"],
+          "Snacks": [" Patties, Pastry, Tea"],
+          "Dinner": ["Egg Curry/Paneer Masala, Rice, Roti"]
+        },
+        "Saturday": {
+          "Breakfast": ["Aloo Paratha, Dahi, Ketchup, Tea"],
+          "Lunch": ["Khichdi, Dahi, Papad, Aloo Chokha, Pickle"],
+          "Snacks": ["Litti-Chokha, Tea"],
+          "Dinner": ["Rice, DaL, Roti, Seasonal Veg, Sweet"]
+        },
+        "Sunday": {
+          "Breakfast": ["Chole Bhature, Onion, Coffee"],
+          "Lunch": ["Rice, Roti, Dal, Seasonal Veg, Achaar, Salad"],
+          "Snacks": ["Aloo Pyaaz Pakori, Ketchup, Juice, Tea/Pav Bhaji"],
+          "Dinner": ["Rice, Roti, Chilli Paneer/Chicken/Mutton"]
+        }
+      }
+    },
+    "Hostel 4 Menu": {
+      "name": "Hostel 4",
+      "menu": {
+        "Monday": {
+          "Breakfast": ["Idli, Sambar, White Chutney, Chai, Banana(1Pc.)"],
+          "Lunch": ["Egg Curry/Paneer Kofta, Rice, Roti, Dal, Salad, Dahi"],
+          "Snacks": ["Patties and Pastry, Coffee, Tomato Sauce"],
+          "Dinner": ["Jira Rice, Rajma, Roti"]
+        },
+        "Tuesday": {
+          "Breakfast": ["Poha, Jalebi, Chai"],
+          "Lunch": ["Kachori, Chola, Rice, Sweet, Bundi Raita"],
+          "Snacks": ["Aloo Chap, Green Chutney, Chai"],
+          "Dinner": ["Aloo Patta Gobhi, Dal, Rice, Roti"]
+        },
+        "Wednesday": {
+          "Breakfast": ["Bread(Butter,Jam), Milk, Omlette, Banana(2Pc.)"],
+          "Lunch": ["Kadhi-Badi, Rice, Roti, Aloo Bhujia, Salad, Papad, Icecream"],
+          "Snacks": ["White Pasta, Pepsi, Tomato Sauce"],
+          "Dinner": ["Chicken/Mutton Curry/Paneer Curry, Rice, Butter Roti, Dal, Salad"]
+        },
+        "Thursday": {
+          "Breakfast": ["Uttapam-Sambar, White Chutney, Coffee"],
+          "Lunch": ["Dal Makhni, Rice, Aloo Paratha, Salad, Dahi"],
+          "Snacks": ["Back Forest Mousse, Cheese Italian Roll, Coffee, Tomato Sauce"],
+          "Dinner": ["Puri, Matar Paneer, Kheer, Salad"]
+        },
+        "Friday": {
+          "Breakfast": ["Bread(Butter,Jam), Milk, Cornflakes, Banana(1Pc.)"],
+          "Lunch": ["Pulao, Mix Veg, Roti, Salad, Dal, Dahi"],
+          "Snacks": ["Samosa Chaat, Chai"],
+          "Dinner": ["Chicken Chilli/Paneer, Rice, Butter Roti, Dal, Salad"]
+        },
+        "Saturday": {
+          "Breakfast": ["Dosa, Sambar Chutney, Chai"],
+          "Lunch": ["Khichdi, Dahi, Papad, Aloo Chokha, Achaar"],
+          "Snacks": ["Veg Cheese Sandwich, Banana Shake"],
+          "Dinner": ["Tadka Chana Dal, Roti, Rice, Aloo Bhujia, Salad"]
+        },
+        "Sunday": {
+          "Breakfast": ["Chole Bhature, Salad, Jalebi, Chai"],
+          "Lunch": ["Roti, Rice, Dal, Jeera Aloo, Salad, Custard"],
+          "Snacks": ["Dabeli, Chai"],
+          "Dinner": ["Chicken/Paneer Biryani, Raita"]
+        }
+      }
+    },
+    "Hostel 5 Menu": {
+      "name": "Hostel 5",
+      "menu": {
+        "Monday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Tuesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Wednesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Thursday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Friday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Saturday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Sunday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        }
+      }
+    },
+    "Hostel 6 Menu": {
+      "name": "Hostel 6",
+      "menu": {
+        "Monday": {
+          "Breakfast": ["Plain Parantha, Aloo Methi/Jeera Aloo, Tea"],
+          "Lunch": ["Kadhi, Crispy Aloo Bhujia, Rice, Roti"],
+          "Snacks": ["Veg/Egg Roll, Tea"],
+          "Dinner": ["SoyaBean Aloo, Dal Tadka, Roti, Rice, Custard"]
+        },
+        "Tuesday": {
+          "Breakfast": ["Atta Puri, Aloo Sabji, Tea"],
+          "Lunch": ["Rajma, Finger Aloo Wedges, Jeera Rice, Roti"],
+          "Snacks": ["Suji Halwa, Chana Masala, Tea"],
+          "Dinner": ["Palak Paneer, Rice, Roti, Sweet(Kalakand)"]
+        },
+        "Wednesday": {
+          "Breakfast": ["Fried Idli, Sambar, Chutney, Coffee, 2pc Banana"],
+          "Lunch": ["Urad Dal, Seasonal Veg, Jeera Rice, Roti, Boondi Raita, Salad"],
+          "Snacks": ["Maggi+Ketchup and Coffee'"],
+          "Dinner": ["Chicken Biryani, Veg Fried Rice, Raita, Onion"]
+        },
+        "Thursday": {
+          "Breakfast": ["Poha-Jalebi, Tea"],
+          "Lunch": ["Soya Chilli, Arhar Dal, Rice, Roti, Pickle, Sprouts"],
+          "Snacks": ["Patties, Pastry(Chocolate/Pineapple), Coffee"],
+          "Dinner": ["Atta Puri, Chole, Rice, Kheer"]
+        },
+        "Friday": {
+          "Breakfast": ["Milk+Cornflakes/Omlette, White Bread, Ketchup, Tea, Apple(1pc)"],
+          "Lunch": ["Rajma, Finger Aloo Wedges, Jeera Rice, Roti, Salad(Cucumber,Carrot)"],
+          "Snacks": ["Dal Kachodi, Ketchup, Tea"],
+          "Dinner": ["Chicken Curry/ Kadhai Paneer, Rice, Roti, Onion"]
+        },
+        "Saturday": {
+          "Breakfast": ["Aloo Parantha, Curd, Ketchup, Tea"],
+          "Lunch": ["Khichdi, Chokha, Curd, Papad"],
+          "Snacks": ["Samosa, Tea"],
+          "Dinner": ["Butter Roti, Dal Tadka, Mix-Veg Rice, Gulab Jamun"]
+        },
+        "Sunday": {
+          "Breakfast": ["Chole Bhature, Onion, Lemon, Coffee"],
+          "Lunch": ["Mix Dal, Seasonal Veg, Veg Pulao"],
+          "Snacks": ["Burger, Coffee"],
+          "Dinner": ["Butter Chicken/Chilli Paneer, Laccha Paratha, Onion"]
+        }
+      }
+    },
+    "Hostel 7 Menu": {
+      "name": "Hostel 7",
+      "menu": {
+        "Monday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Tuesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Wednesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Thursday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Friday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Saturday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Sunday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        }
+      }
+    },
+    "Hostel 8 Menu": {
+      "name": "Hostel 8",
+      "menu": {
+        "Monday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Tuesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Wednesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Thursday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Friday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Saturday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Sunday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        }
+      }
+    },
+    "Hostel 9 Menu": {
+      "name": "Hostel 9",
+      "menu": {
+        "Monday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Tuesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Wednesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Thursday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Friday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Saturday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Sunday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        }
+      }
+    },
+    "Hostel 10 Menu": {
+      "name": "Hostel 10",
+      "menu": {
+        "Monday": {
+          "Breakfast": ["Cheese Sandwich, Boiled Egg/Milk, Tea"],
+          "Lunch": ["Kadhi Badi, Aloo Bhujiya, Rice, Roti, Papad, Salad"],
+          "Snacks": ["Chowmeen, Coffee"],
+          "Dinner": ["Sattu Paratha, Aloo+Baingan Chokha, Dal, Chawal, Sweets"]
+        },
+        "Tuesday": {
+          "Breakfast": ["Onion Paratha, Aloo Sabzi, Green Chutney, Coffee"],
+          "Lunch": ["Pulao, Matar Paneer, Chana Dal, Roti, Salad"],
+          "Snacks": ["Litti Chokha, Tea, Juices"],
+          "Dinner": ["Chole Bhature, Salad, Pickle, Sewai, Rice"]
+        },
+        "Wednesday": {
+          "Breakfast": ["Uttapam/Idli- Sambar, Chutney, Tea"],
+          "Lunch": ["Rajma-Chawal, Finger Chips, Salad"],
+          "Snacks": ["Patties, Pastry, Coffee, Juices"],
+          "Dinner": ["Chicken Biryani/Veg Biryani, Raita, Salad"]
+        },
+        "Thursday": {
+          "Breakfast": ["Aloo Paratha, Dahi, Chutney, Coffee"],
+          "Lunch": ["Seasonal Veg, Rice, Roti, Chana Dal, Aloo Bhujiya, Salad"],
+          "Snacks": ["Papdi Chaat, Tea"],
+          "Dinner": ["Paneer Kofta, Jeera Rice, Roti, Custard, Dal, Salad"]
+        },
+        "Friday": {
+          "Breakfast": ["Bread-Butter/Jam, Egg Bhurji/Milk, Tea"],
+          "Lunch": ["Pulao, Puri, Aloo Dam, Tadka Dal, Salad"],
+          "Snacks": ["Poha, Jalebi, Coffee"],
+          "Dinner": ["Chicken Chilly/Egg Chilly, Paneer Chily, Lachha Paratha, Rice, Dal, Salad"]
+        },
+        "Saturday": {
+          "Breakfast": ["Corn Flakes, Milk, Fruit, Coffee"],
+          "Lunch": ["Khichdi, Curd, Aloo Chokha, Papad"],
+          "Snacks": ["Samosa Chaat, Tea"],
+          "Dinner": ["Aloo Soya, Dal, Roti, Rice, Papad, Sweets"]
+        },
+        "Sunday": {
+          "Breakfast": ["Maida Puri, Dry Sabzi, Tea"],
+          "Lunch": ["Seasonal Veg, Rice, Roti, Chana Dal, Aloo/Parbal Bhujiya,Salad,Raita"],
+          "Snacks": ["Maggi/Cream Roll, Coffee, Juices"],
+          "Dinner": ["Chicken/Mutton/Fish Curry, Paneer Butter Masala, Yellow Pulao, Salad, Dal"]
+        }
+      }
+    },
+    "Hostel 11 Menu": {
+      "name": "Hostel 11",
+      "menu": {
+        "Monday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Tuesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Wednesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Thursday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Friday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Saturday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Sunday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        }
+      }
+    },
+    "Hostel 12 Menu": {
+      "name": "Hostel 12",
+      "menu": {
+        "Monday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Tuesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Wednesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Thursday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Friday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Saturday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Sunday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        }
+      }
+    },
+    "Hostel 13 Menu": {
+      "name": "Hostel 13",
+      "menu": {
+        "Monday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Tuesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Wednesday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Thursday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Friday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Saturday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        },
+        "Sunday": {
+          "Breakfast": [""],
+          "Lunch": [""],
+          "Snacks": [""],
+          "Dinner": [""]
+        }
+      }
+    }
+  }
+}
