@@ -427,46 +427,46 @@
       "name": "Hostel 10",
       "menu": {
         "Monday": {
-          "Breakfast": ["Cheese Sandwich, Boiled Egg/Milk, Tea"],
-          "Lunch": ["Kadhi Badi, Aloo Bhujiya, Rice, Roti, Papad, Salad"],
+          "Breakfast": ["Cheese Sandwich, Egg Bhurji/Milk, Coffee"],
+          "Lunch": ["Kadhi Badi, Aloo Bhujiya, Rice, Roti, Salad"],
           "Snacks": ["Chowmeen, Coffee"],
-          "Dinner": ["Sattu Paratha, Aloo+Baingan Chokha, Dal, Chawal, Sweets"]
+          "Dinner": ["Do Pyaza Paneer, Butter Roti, Yellow Rice, Kheer"]
         },
         "Tuesday": {
-          "Breakfast": ["Onion Paratha, Aloo Sabzi, Green Chutney, Coffee"],
+          "Breakfast": ["Onion/Gobi Paratha, Aloo Sabzi, Tea"],
           "Lunch": ["Pulao, Matar Paneer, Chana Dal, Roti, Salad"],
-          "Snacks": ["Litti Chokha, Tea, Juices"],
-          "Dinner": ["Chole Bhature, Salad, Pickle, Sewai, Rice"]
+          "Snacks": ["Paneer Roll, Coffee"],
+          "Dinner": ["Puri, Chhola, Dal Makhni, Rice, Sweet"]
         },
         "Wednesday": {
-          "Breakfast": ["Uttapam/Idli- Sambar, Chutney, Tea"],
-          "Lunch": ["Rajma-Chawal, Finger Chips, Salad"],
+          "Breakfast": ["Uttapam, Sambar, Chutney, Tea"],
+          "Lunch": ["Rajma-Chawal, Finger Chips, Roti, Salad"],
           "Snacks": ["Patties, Pastry, Coffee, Juices"],
           "Dinner": ["Chicken Biryani/Veg Biryani, Raita, Salad"]
         },
         "Thursday": {
-          "Breakfast": ["Aloo Paratha, Dahi, Chutney, Coffee"],
+          "Breakfast": ["Maida Puri, Aloo Sabzi, Tea"],
           "Lunch": ["Seasonal Veg, Rice, Roti, Chana Dal, Aloo Bhujiya, Salad"],
-          "Snacks": ["Papdi Chaat, Tea"],
-          "Dinner": ["Paneer Kofta, Jeera Rice, Roti, Custard, Dal, Salad"]
+          "Snacks": ["Papdi Chat, Tea"],
+          "Dinner": ["Aloo Paratha, Curd, Chutney, Salad"]
         },
         "Friday": {
-          "Breakfast": ["Bread-Butter/Jam, Egg Bhurji/Milk, Tea"],
+          "Breakfast": ["Bread-Butter/Jam, Egg Bhurji/Chana Masala, Coffee"],
           "Lunch": ["Pulao, Puri, Aloo Dam, Tadka Dal, Salad"],
-          "Snacks": ["Poha, Jalebi, Coffee"],
-          "Dinner": ["Chicken Chilly/Egg Chilly, Paneer Chily, Lachha Paratha, Rice, Dal, Salad"]
+          "Snacks": ["Mix Pakora, Tea"],
+          "Dinner": ["Chicken/Egg Kadhai, Paneer Kadhai, Lachha Paratha, Rice, Salad"]
         },
         "Saturday": {
-          "Breakfast": ["Corn Flakes, Milk, Fruit, Coffee"],
+          "Breakfast": ["Corn Flakes, Milk, Fruits, Coffee"],
           "Lunch": ["Khichdi, Curd, Aloo Chokha, Papad"],
           "Snacks": ["Samosa Chaat, Tea"],
-          "Dinner": ["Aloo Soya, Dal, Roti, Rice, Papad, Sweets"]
+          "Dinner": ["Rajma Chawal, Finger Chips, Rice, Roti"]
         },
         "Sunday": {
-          "Breakfast": ["Maida Puri, Dry Sabzi, Tea"],
-          "Lunch": ["Seasonal Veg, Rice, Roti, Chana Dal, Aloo/Parbal Bhujiya,Salad,Raita"],
-          "Snacks": ["Maggi/Cream Roll, Coffee, Juices"],
-          "Dinner": ["Chicken/Mutton/Fish Curry, Paneer Butter Masala, Yellow Pulao, Salad, Dal"]
+          "Breakfast": ["Chola Bhatura, Coffee"],
+          "Lunch": ["Seasonal Veg, Rice, Roti, Chana Dal, Aloo Bhujiya, Salad"],
+          "Snacks": ["Maggi/Cream Roll, Coffee"],
+          "Dinner": ["Chilly Chicken/Mutton Curry, Mix Chilly, Fried Rice, Roti, Dal, Salad"]
         }
       }
     },

@@ -17,7 +17,7 @@ export default function Mess() {
         },
         headerShadowVisible: false,
         headerTintColor: 'white',
-        headerStyle: { backgroundColor: '#101318' },
+        headerStyle: { backgroundColor: '#202123' },
       }}
     >
       <Stack.Screen

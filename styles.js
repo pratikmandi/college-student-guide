@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   page: {
-    backgroundColor:'#101318',
+    backgroundColor:'#202123',
   }
 });
 

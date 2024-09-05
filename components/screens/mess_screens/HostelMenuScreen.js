@@ -22,7 +22,7 @@ const HostelMenuScreen = ({ route }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#101318',
+    backgroundColor: '#202123',
     // padding: 10,
   },
   title: {

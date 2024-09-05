@@ -4,7 +4,7 @@ import React from 'react'
 const HomeScreen = () => {
   return (
     <View style={{
-      backgroundColor: '#101318',
+      backgroundColor: '#202123',
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',

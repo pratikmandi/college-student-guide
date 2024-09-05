@@ -18,16 +18,16 @@ const CustomDrawerContent = (props) => {
       label="Institute Website"
       labelStyle={{color:'white'}}
       onPress={()=>Linking.openURL('https://bitmesra.ac.in/1')}
-      // activeBackgroundColor='#101318'
-      // activeTintColor='#101318'
+      // activeBackgroundColor='#202123'
+      // activeTintColor='#202123'
       />
       <DrawerItem 
       label="ERP"
       labelStyle={{
         color:'white'}}
       onPress={()=>Linking.openURL('https://erpportal.bitmesra.ac.in/login.htm')}
-      // activeBackgroundColor='#101318'
-      // activeTintColor='#101318'
+      // activeBackgroundColor='#202123'
+      // activeTintColor='#202123'
       />
 
 <DrawerItem 
@@ -35,8 +35,8 @@ const CustomDrawerContent = (props) => {
       labelStyle={{
         color:'white'}}
       onPress={()=>Linking.openURL('https://tp.bitmesra.co.in/login.html')}
-      // activeBackgroundColor='#101318'
-      // activeTintColor='#101318'
+      // activeBackgroundColor='#202123'
+      // activeTintColor='#202123'
       />
       <View style={styles.appDevContainer}>
         <Text style={styles.appDev}>by Pratik Mandi</Text>
@@ -56,14 +56,14 @@ return(
       options={{ 
         headerShadowVisible:false,
         headerStyle:{
-          backgroundColor:'#101318',
+          backgroundColor:'#202123',
         },
         headerTitleStyle:{color:'white'},
         headerTitleContainerStyle:{marginStart:1},
         headerShown: true,
         headerTintColor:'white',
       drawerStyle:{
-        backgroundColor:'#101318',
+        backgroundColor:'#202123',
         marginTop:40,
         marginBottom:90,
         // borderRadius:20,
@@ -89,7 +89,7 @@ const Home = () => {
 const styles = StyleSheet.create({
   appInfoContainer: {
     paddingLeft: 20,
-    backgroundColor: '#101318',
+    backgroundColor: '#202123',
     marginBottom: 20,
     borderRadius: 10,
   },
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
   },
   appDevContainer: {
     paddingLeft: 20,
-    backgroundColor: '#101318',
+    backgroundColor: '#202123',
     marginTop:350,
     marginBottom: 10,
     borderRadius: 10,

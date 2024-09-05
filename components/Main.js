@@ -12,10 +12,10 @@ const Main = () => {
     <Tab.Navigator
     screenOptions={{
       tabBarLabel:false,
-      tabBarColor:'#1C1F24',
+      // tabBarColor:'#1C1F24',
       tabBarStyle: {
         borderTopColor:'transparent',
-        backgroundColor: '#1C1F24',
+        backgroundColor: '#2A2B2E',
         position: 'absolute',
         height: 60,
         bottom: 20,
@@ -32,7 +32,7 @@ const Main = () => {
         options={{
           headerShown:false,
           headerStyle:{
-            backgroundColor:'#101318'
+            backgroundColor:'#202123'
           },
           tabBarIcon: ({ focused }) => (
             <Icon
@@ -46,7 +46,7 @@ const Main = () => {
       <Tab.Screen name="Mess" component={Mess}
         options={{
           headerStyle:{
-            backgroundColor:'#101318'
+            backgroundColor:'#202123'
           },
           headerShown: false,
           tabBarIcon: ({ focused }) => (
@@ -61,7 +61,7 @@ const Main = () => {
       <Tab.Screen name="Bus Schedule" component={Bus}
         options={{
           headerStyle:{
-            backgroundColor:'#101318'
+            backgroundColor:'#202123'
           },
           tabBarIcon: ({ focused }) => (
             <Icon
@@ -75,7 +75,7 @@ const Main = () => {
       <Tab.Screen name="Profile" component={Profile}
         options={{
           headerStyle:{
-            backgroundColor:'#101318'
+            backgroundColor:'#202123'
           },
           tabBarIcon: ({ focused }) => (
             <Icon

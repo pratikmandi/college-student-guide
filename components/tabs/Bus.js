@@ -4,10 +4,10 @@ import React from 'react';
 export default function Bus() {
   return (
     <View style={{
-      backgroundColor: '#101318'
+      backgroundColor: '#202123'
     }}>
       <ScrollView style={{
-        marginBottom: 100,
+        marginBottom: 85,
       }}>
 
         {/* Staff Bus Timings: */}

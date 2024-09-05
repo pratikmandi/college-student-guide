@@ -6,7 +6,7 @@ const Profile = () => {
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor:'#101318',
+      backgroundColor:'#202123',
     }}>
       <Text style={{color:'white'}}>Profile!</Text>
     </View>
